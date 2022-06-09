@@ -156,7 +156,7 @@
 		3B2CD31228339FBB00F61696 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		3B2CD3142833A03300F61696 /* MovieDBAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBAuthService.swift; sourceTree = "<group>"; };
 		3B2CD3162833A14200F61696 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
-		3B2EBF7927DC76AA009848C5 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2EBF7927DC76AA009848C5 /* MovieAppZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieAppZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2EBF7C27DC76AA009848C5 /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
 		3B2EBF7E27DC76AA009848C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B2EBF8027DC76AA009848C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -335,7 +335,7 @@
 		3B2EBF7A27DC76AA009848C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B2EBF7927DC76AA009848C5 /* MovieApp.app */,
+				3B2EBF7927DC76AA009848C5 /* MovieAppZ.app */,
 				3B2EBF8927DC76AA009848C5 /* MovieAppTests.xctest */,
 				3B2EBF9327DC76AA009848C5 /* MovieAppUITests.xctest */,
 				3BE47942284D176700FF1491 /* MovieWidgetExtension.appex */,
@@ -685,7 +685,7 @@
 				3B9F963F283BB802002C8F70 /* Algorithms */,
 			);
 			productName = MovieApp;
-			productReference = 3B2EBF7927DC76AA009848C5 /* MovieApp.app */;
+			productReference = 3B2EBF7927DC76AA009848C5 /* MovieAppZ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3B2EBF8827DC76AA009848C5 /* MovieAppTests */ = {
@@ -1104,10 +1104,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieApp/Preview Content\"";
-				DEVELOPMENT_TEAM = FNHC5UHDLA;
+				DEVELOPMENT_TEAM = L6EJCP84YQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1121,8 +1122,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vong.MovieApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulz.MovieApp;
+				PRODUCT_NAME = MovieAppZ;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1135,10 +1137,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieApp/Preview Content\"";
-				DEVELOPMENT_TEAM = FNHC5UHDLA;
+				DEVELOPMENT_TEAM = L6EJCP84YQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1152,8 +1155,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vong.MovieApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulz.MovieApp;
+				PRODUCT_NAME = MovieAppZ;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
