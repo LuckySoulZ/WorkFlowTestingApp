@@ -1,0 +1,979 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UpcomingMoviesData",
+      "printedName": "UpcomingMoviesData",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UpcomingMoviesDomain",
+      "printedName": "UpcomingMoviesDomain",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserLocalDataSourceProtocolMock",
+      "printedName": "UserLocalDataSourceProtocolMock",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "didUpdateUser",
+          "printedName": "didUpdateUser",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "(() -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "() -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(() -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "() -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvg",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvg",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "(() -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "() -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvs",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvs",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvM",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC09didUpdateF0yycSgvM",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findCalled",
+          "printedName": "findCalled",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvg",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvg",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvs",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvs",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvM",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC10findCalledSbvM",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "foundUser",
+          "printedName": "foundUser",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UpcomingMoviesDomain.User?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "UpcomingMoviesDomain.User",
+                  "usr": "s:20UpcomingMoviesDomain4UserV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UpcomingMoviesDomain.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "UpcomingMoviesDomain.User",
+                      "usr": "s:20UpcomingMoviesDomain4UserV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvg",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvg",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UpcomingMoviesDomain.User?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "User",
+                      "printedName": "UpcomingMoviesDomain.User",
+                      "usr": "s:20UpcomingMoviesDomain4UserV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvs",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvs",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvM",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC05foundF00aB6Domain0F0VSgvM",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "find",
+          "printedName": "find(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UpcomingMoviesDomain.User?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "User",
+                  "printedName": "UpcomingMoviesDomain.User",
+                  "usr": "s:20UpcomingMoviesDomain4UserV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC4find4with0aB6Domain0F0VSgSi_tF",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC4find4with0aB6Domain0F0VSgSi_tF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "saveUserCalled",
+          "printedName": "saveUserCalled",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvg",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvg",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvs",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvs",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvM",
+              "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF6CalledSbvM",
+              "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "saveUser",
+          "printedName": "saveUser(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "User",
+              "printedName": "UpcomingMoviesDomain.User",
+              "usr": "s:20UpcomingMoviesDomain4UserV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF0yy0aB6Domain0F0VF",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC04saveF0yy0aB6Domain0F0VF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserLocalDataSourceProtocolMock",
+              "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserLocalDataSourceProtocolMock",
+              "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockCACycfc",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockCACycfc",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC",
+      "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "UserLocalDataSourceProtocol",
+          "printedName": "UserLocalDataSourceProtocol",
+          "usr": "s:18UpcomingMoviesData09UserLocalC14SourceProtocolP",
+          "mangledName": "$s18UpcomingMoviesData09UserLocalC14SourceProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UpcomingMoviesData",
+      "printedName": "UpcomingMoviesData",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UpcomingMoviesDomain",
+      "printedName": "UpcomingMoviesDomain",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UserRepositoryTests",
+      "printedName": "UserRepositoryTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "repository",
+          "printedName": "repository",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UpcomingMoviesData.UserRepository?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserRepository",
+                  "printedName": "UpcomingMoviesData.UserRepository",
+                  "usr": "s:18UpcomingMoviesData14UserRepositoryC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C10repository33_1B68D6FA9D0FE4A244CBD39942EFFF4FLL0abC00fG0CSgvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C10repository33_1B68D6FA9D0FE4A244CBD39942EFFF4FLL0abC00fG0CSgvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "mockUserLocalDataSource",
+          "printedName": "mockUserLocalDataSource",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserLocalDataSourceProtocolMock?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserLocalDataSourceProtocolMock",
+                  "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserLocalDataSourceProtocolMock",
+                  "usr": "s:024UpcomingMoviesData_Unit_abC5Tests09UserLocalC18SourceProtocolMockC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C04mockf5LocalC6Source33_1B68D6FA9D0FE4A244CBD39942EFFF4FLLAA0ficJ12ProtocolMockCSgvp",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C04mockf5LocalC6Source33_1B68D6FA9D0FE4A244CBD39942EFFF4FLLAA0ficJ12ProtocolMockCSgvp",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)setUpWithError:",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C14setUpWithErroryyKF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)tearDownWithError:",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C17tearDownWithErroryyKF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testFindUserCalled",
+          "printedName": "testFindUserCalled()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)testFindUserCalled",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C08testFindF6CalledyyF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testSaveserCalled",
+          "printedName": "testSaveserCalled()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)testSaveserCalled",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C17testSaveserCalledyyF",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserRepositoryTests",
+              "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserRepositoryTests",
+              "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)initWithInvocation:",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserRepositoryTests",
+              "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserRepositoryTests",
+              "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)initWithSelector:",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserRepositoryTests",
+              "printedName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests.UserRepositoryTests",
+              "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests(im)init",
+          "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0CACycfc",
+          "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@UpcomingMoviesData_Unit_UpcomingMoviesDataTests@objc(cs)UserRepositoryTests",
+      "mangledName": "$s024UpcomingMoviesData_Unit_abC5Tests014UserRepositoryE0C",
+      "moduleName": "UpcomingMoviesData_Unit_UpcomingMoviesDataTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

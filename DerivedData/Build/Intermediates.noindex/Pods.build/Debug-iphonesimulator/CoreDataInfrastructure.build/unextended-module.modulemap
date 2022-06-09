@@ -1,0 +1,10 @@
+framework module CoreDataInfrastructure {
+  umbrella header "CoreDataInfrastructure-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreDataInfrastructure.__Swift {
+    exclude header "CoreDataInfrastructure-Swift.h"
+}

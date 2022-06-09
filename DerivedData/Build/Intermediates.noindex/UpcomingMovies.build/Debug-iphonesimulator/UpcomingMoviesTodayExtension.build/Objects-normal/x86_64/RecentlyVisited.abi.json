@@ -1,0 +1,2766 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "TypeDecl",
+      "name": "AppGroup",
+      "printedName": "AppGroup",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "movies",
+          "printedName": "movies",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RecentlyVisited.AppGroup.Type) -> RecentlyVisited.AppGroup",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppGroup",
+                  "printedName": "RecentlyVisited.AppGroup",
+                  "usr": "s:15RecentlyVisited8AppGroupO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RecentlyVisited.AppGroup.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AppGroup",
+                      "printedName": "RecentlyVisited.AppGroup",
+                      "usr": "s:15RecentlyVisited8AppGroupO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:15RecentlyVisited8AppGroupO6moviesyA2CmF",
+          "mangledName": "$s15RecentlyVisited8AppGroupO6moviesyA2CmF",
+          "moduleName": "RecentlyVisited",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "allCasesIdentifiers",
+          "printedName": "allCasesIdentifiers",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited8AppGroupO19allCasesIdentifiersSaySSGvpZ",
+          "mangledName": "$s15RecentlyVisited8AppGroupO19allCasesIdentifiersSaySSGvpZ",
+          "moduleName": "RecentlyVisited",
+          "static": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited8AppGroupO19allCasesIdentifiersSaySSGvgZ",
+              "mangledName": "$s15RecentlyVisited8AppGroupO19allCasesIdentifiersSaySSGvgZ",
+              "moduleName": "RecentlyVisited",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RecentlyVisited.AppGroup?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppGroup",
+                  "printedName": "RecentlyVisited.AppGroup",
+                  "usr": "s:15RecentlyVisited8AppGroupO"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15RecentlyVisited8AppGroupO8rawValueACSgSS_tcfc",
+          "mangledName": "$s15RecentlyVisited8AppGroupO8rawValueACSgSS_tcfc",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited8AppGroupO8rawValueSSvp",
+          "mangledName": "$s15RecentlyVisited8AppGroupO8rawValueSSvp",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited8AppGroupO8rawValueSSvg",
+              "mangledName": "$s15RecentlyVisited8AppGroupO8rawValueSSvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "allCases",
+          "printedName": "allCases",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RecentlyVisited.AppGroup]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppGroup",
+                  "printedName": "RecentlyVisited.AppGroup",
+                  "usr": "s:15RecentlyVisited8AppGroupO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited8AppGroupO8allCasesSayACGvpZ",
+          "mangledName": "$s15RecentlyVisited8AppGroupO8allCasesSayACGvpZ",
+          "moduleName": "RecentlyVisited",
+          "static": true,
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RecentlyVisited.AppGroup]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AppGroup",
+                      "printedName": "RecentlyVisited.AppGroup",
+                      "usr": "s:15RecentlyVisited8AppGroupO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited8AppGroupO8allCasesSayACGvgZ",
+              "mangledName": "$s15RecentlyVisited8AppGroupO8allCasesSayACGvgZ",
+              "moduleName": "RecentlyVisited",
+              "static": true,
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:15RecentlyVisited8AppGroupO",
+      "mangledName": "$s15RecentlyVisited8AppGroupO",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "String",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CaseIterable",
+          "printedName": "CaseIterable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AllCases",
+              "printedName": "AllCases",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RecentlyVisited.AppGroup]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AppGroup",
+                      "printedName": "RecentlyVisited.AppGroup",
+                      "usr": "s:15RecentlyVisited8AppGroupO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12CaseIterableP",
+          "mangledName": "$ss12CaseIterableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppExtension",
+      "printedName": "AppExtension",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "scheme",
+          "printedName": "scheme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited12AppExtensionV6schemeSSvpZ",
+          "mangledName": "$s15RecentlyVisited12AppExtensionV6schemeSSvpZ",
+          "moduleName": "RecentlyVisited",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited12AppExtensionV6schemeSSvgZ",
+              "mangledName": "$s15RecentlyVisited12AppExtensionV6schemeSSvgZ",
+              "moduleName": "RecentlyVisited",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Host",
+          "printedName": "Host",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "upcomingMovies",
+              "printedName": "upcomingMovies",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(RecentlyVisited.AppExtension.Host.Type) -> RecentlyVisited.AppExtension.Host",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Host",
+                      "printedName": "RecentlyVisited.AppExtension.Host",
+                      "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "RecentlyVisited.AppExtension.Host.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Host",
+                          "printedName": "RecentlyVisited.AppExtension.Host",
+                          "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:15RecentlyVisited12AppExtensionV4HostO14upcomingMoviesyA2EmF",
+              "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO14upcomingMoviesyA2EmF",
+              "moduleName": "RecentlyVisited",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "searchMovies",
+              "printedName": "searchMovies",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(RecentlyVisited.AppExtension.Host.Type) -> RecentlyVisited.AppExtension.Host",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Host",
+                      "printedName": "RecentlyVisited.AppExtension.Host",
+                      "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "RecentlyVisited.AppExtension.Host.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Host",
+                          "printedName": "RecentlyVisited.AppExtension.Host",
+                          "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:15RecentlyVisited12AppExtensionV4HostO12searchMoviesyA2EmF",
+              "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO12searchMoviesyA2EmF",
+              "moduleName": "RecentlyVisited",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(rawValue:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RecentlyVisited.AppExtension.Host?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Host",
+                      "printedName": "RecentlyVisited.AppExtension.Host",
+                      "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:15RecentlyVisited12AppExtensionV4HostO8rawValueAESgSS_tcfc",
+              "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO8rawValueAESgSS_tcfc",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "rawValue",
+              "printedName": "rawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:15RecentlyVisited12AppExtensionV4HostO8rawValueSSvp",
+              "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO8rawValueSSvp",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:15RecentlyVisited12AppExtensionV4HostO8rawValueSSvg",
+                  "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO8rawValueSSvg",
+                  "moduleName": "RecentlyVisited",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:15RecentlyVisited12AppExtensionV4HostO",
+          "mangledName": "$s15RecentlyVisited12AppExtensionV4HostO",
+          "moduleName": "RecentlyVisited",
+          "enumRawTypeName": "String",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "RawRepresentable",
+              "printedName": "RawRepresentable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "RawValue",
+                  "printedName": "RawValue",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:SY",
+              "mangledName": "$sSY"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "url",
+          "printedName": "url(for:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Host",
+              "printedName": "RecentlyVisited.AppExtension.Host",
+              "usr": "s:15RecentlyVisited12AppExtensionV4HostO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15RecentlyVisited12AppExtensionV3url3for10Foundation3URLVSgAC4HostO_tFZ",
+          "mangledName": "$s15RecentlyVisited12AppExtensionV3url3for10Foundation3URLVSgAC4HostO_tFZ",
+          "moduleName": "RecentlyVisited",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppExtension",
+              "printedName": "RecentlyVisited.AppExtension",
+              "usr": "s:15RecentlyVisited12AppExtensionV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15RecentlyVisited12AppExtensionVACycfc",
+          "mangledName": "$s15RecentlyVisited12AppExtensionVACycfc",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:15RecentlyVisited12AppExtensionV",
+      "mangledName": "$s15RecentlyVisited12AppExtensionV",
+      "moduleName": "RecentlyVisited",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Kingfisher",
+      "printedName": "Kingfisher",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "NotificationCenter",
+      "printedName": "NotificationCenter",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited"
+    },
+    {
+      "kind": "Import",
+      "name": "CoreDataInfrastructure",
+      "printedName": "CoreDataInfrastructure",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TodayViewController",
+      "printedName": "TodayViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "todayView",
+          "printedName": "todayView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TodayView",
+              "printedName": "RecentlyVisited.TodayView",
+              "usr": "c:@M@RecentlyVisited@objc(cs)TodayView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19TodayViewControllerC05todayD033_CCCAF9155E4ED240BD48B6E640625681LLAA0cD0Cvp",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC05todayD033_CCCAF9155E4ED240BD48B6E640625681LLAA0cD0Cvp",
+          "moduleName": "RecentlyVisited",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "localDataSource",
+          "printedName": "localDataSource",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "CoreDataInfrastructure.LocalDataSource?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "LocalDataSource",
+                  "printedName": "CoreDataInfrastructure.LocalDataSource",
+                  "usr": "s:22CoreDataInfrastructure05LocalB6SourceC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19TodayViewControllerC15localDataSource33_CCCAF9155E4ED240BD48B6E640625681LL04CoreG14Infrastructure05LocalgH0CSgvp",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC15localDataSource33_CCCAF9155E4ED240BD48B6E640625681LL04CoreG14Infrastructure05LocalgH0CSgvp",
+          "moduleName": "RecentlyVisited",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "loadView",
+          "printedName": "loadView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController(im)loadView",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC04loadD0yyF",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "loadView",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController(im)viewDidLoad",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC11viewDidLoadyyF",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "widgetPerformUpdate",
+          "printedName": "widgetPerformUpdate(completionHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(NotificationCenter.NCUpdateResult) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NCUpdateResult",
+                  "printedName": "NotificationCenter.NCUpdateResult",
+                  "usr": "c:@E@NCUpdateResult"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController(im)widgetPerformUpdateWithCompletionHandler:",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC19widgetPerformUpdate17completionHandleryySo14NCUpdateResultVc_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "objc_name": "widgetPerformUpdateWithCompletionHandler:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TodayViewController",
+              "printedName": "RecentlyVisited.TodayViewController",
+              "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RecentlyVisited.TodayViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TodayViewController",
+                  "printedName": "RecentlyVisited.TodayViewController",
+                  "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController(im)initWithCoder:",
+          "mangledName": "$s15RecentlyVisited19TodayViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RecentlyVisited@objc(cs)TodayViewController",
+      "mangledName": "$s15RecentlyVisited19TodayViewControllerC",
+      "moduleName": "RecentlyVisited",
+      "isOpen": true,
+      "objc_name": "TodayViewController",
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TodayView",
+      "printedName": "TodayView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "postersStackView",
+          "printedName": "postersStackView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIStackView",
+              "printedName": "UIKit.UIStackView",
+              "usr": "c:objc(cs)UIStackView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvp",
+          "mangledName": "$s15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvp",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvg",
+              "mangledName": "$s15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvs",
+              "mangledName": "$s15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0Cvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0CvM",
+              "mangledName": "$s15RecentlyVisited9TodayViewC012postersStackD0So07UIStackD0CvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_postersStackView",
+          "printedName": "$__lazy_storage_$_postersStackView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIStackView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited9TodayViewC030$__lazy_storage_$_postersStackD033_8B47928C143C135939DE972050084F09LLSo07UIStackD0CSgvp",
+          "mangledName": "$s15RecentlyVisited9TodayViewC030$__lazy_storage_$_postersStackD033_8B47928C143C135939DE972050084F09LLSo07UIStackD0CSgvp",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TodayView",
+              "printedName": "RecentlyVisited.TodayView",
+              "usr": "c:@M@RecentlyVisited@objc(cs)TodayView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayView(im)initWithFrame:",
+          "mangledName": "$s15RecentlyVisited9TodayViewC5frameACSo6CGRectV_tcfc",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "RecentlyVisited.TodayView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TodayView",
+                  "printedName": "RecentlyVisited.TodayView",
+                  "usr": "c:@M@RecentlyVisited@objc(cs)TodayView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RecentlyVisited@objc(cs)TodayView(im)initWithCoder:",
+          "mangledName": "$s15RecentlyVisited9TodayViewC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "RecentlyVisited",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "setupEmptyView",
+          "printedName": "setupEmptyView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15RecentlyVisited9TodayViewC010setupEmptyD0yyF",
+          "mangledName": "$s15RecentlyVisited9TodayViewC010setupEmptyD0yyF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addPoster",
+          "printedName": "addPoster(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15RecentlyVisited9TodayViewC9addPoster4withySS_tF",
+          "mangledName": "$s15RecentlyVisited9TodayViewC9addPoster4withySS_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RecentlyVisited@objc(cs)TodayView",
+      "mangledName": "$s15RecentlyVisited9TodayViewC",
+      "moduleName": "RecentlyVisited",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "RecentlyVisited",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AnchoredConstraints",
+      "printedName": "AnchoredConstraints",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "top",
+          "printedName": "top",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV3topSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "leading",
+          "printedName": "leading",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV7leadingSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bottom",
+          "printedName": "bottom",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6bottomSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "trailing",
+          "printedName": "trailing",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV8trailingSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "width",
+          "printedName": "width",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV5widthSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "height",
+          "printedName": "height",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvp",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvp",
+          "moduleName": "RecentlyVisited",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvg",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvg",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.NSLayoutConstraint?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSLayoutConstraint",
+                      "printedName": "UIKit.NSLayoutConstraint",
+                      "usr": "c:objc(cs)NSLayoutConstraint"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvs",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvs",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvM",
+              "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV6heightSo18NSLayoutConstraintCSgvM",
+              "moduleName": "RecentlyVisited",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(top:leading:bottom:trailing:width:height:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnchoredConstraints",
+              "printedName": "RecentlyVisited.AnchoredConstraints",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutConstraint?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutConstraint",
+                  "printedName": "UIKit.NSLayoutConstraint",
+                  "usr": "c:objc(cs)NSLayoutConstraint"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsV3top7leading6bottom8trailing5width6heightACSo18NSLayoutConstraintCSg_A5Ltcfc",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV3top7leading6bottom8trailing5width6heightACSo18NSLayoutConstraintCSg_A5Ltcfc",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnchoredConstraints",
+              "printedName": "RecentlyVisited.AnchoredConstraints",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15RecentlyVisited19AnchoredConstraintsVACycfc",
+          "mangledName": "$s15RecentlyVisited19AnchoredConstraintsVACycfc",
+          "moduleName": "RecentlyVisited",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:15RecentlyVisited19AnchoredConstraintsV",
+      "mangledName": "$s15RecentlyVisited19AnchoredConstraintsV",
+      "moduleName": "RecentlyVisited",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIImageView",
+      "printedName": "UIImageView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setImage",
+          "printedName": "setImage(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So11UIImageViewC15RecentlyVisitedE8setImage4withy10Foundation3URLVSg_tF",
+          "mangledName": "$sSo11UIImageViewC15RecentlyVisitedE8setImage4withy10Foundation3URLVSg_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "cancelImageDownload",
+          "printedName": "cancelImageDownload()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So11UIImageViewC15RecentlyVisitedE19cancelImageDownloadyyF",
+          "mangledName": "$sSo11UIImageViewC15RecentlyVisitedE19cancelImageDownloadyyF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIImageView",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIImageView",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "KingfisherCompatible",
+          "printedName": "KingfisherCompatible",
+          "usr": "s:10Kingfisher0A10CompatibleP",
+          "mangledName": "$s10Kingfisher0A10CompatibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIView",
+      "printedName": "UIView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "anchor",
+          "printedName": "anchor(top:leading:bottom:trailing:padding:size:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnchoredConstraints",
+              "printedName": "RecentlyVisited.AnchoredConstraints",
+              "usr": "s:15RecentlyVisited19AnchoredConstraintsV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutYAxisAnchor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutYAxisAnchor",
+                  "printedName": "UIKit.NSLayoutYAxisAnchor",
+                  "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutXAxisAnchor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutXAxisAnchor",
+                  "printedName": "UIKit.NSLayoutXAxisAnchor",
+                  "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutYAxisAnchor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutYAxisAnchor",
+                  "printedName": "UIKit.NSLayoutYAxisAnchor",
+                  "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.NSLayoutXAxisAnchor?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSLayoutXAxisAnchor",
+                  "printedName": "UIKit.NSLayoutXAxisAnchor",
+                  "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIEdgeInsets",
+              "printedName": "UIKit.UIEdgeInsets",
+              "hasDefaultArg": true,
+              "usr": "c:@S@UIEdgeInsets"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "hasDefaultArg": true,
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE6anchor3top7leading6bottom8trailing7padding4sizeAC19AnchoredConstraintsVSo19NSLayoutYAxisAnchorCSg_So0m5XAxisO0CSgAoRSo12UIEdgeInsetsVSo6CGSizeVtF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE6anchor3top7leading6bottom8trailing7padding4sizeAC19AnchoredConstraintsVSo19NSLayoutYAxisAnchorCSg_So0m5XAxisO0CSgAoRSo12UIEdgeInsetsVSo6CGSizeVtF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "DiscardableResult"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "fillSuperview",
+          "printedName": "fillSuperview(padding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIEdgeInsets",
+              "printedName": "UIKit.UIEdgeInsets",
+              "hasDefaultArg": true,
+              "usr": "c:@S@UIEdgeInsets"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE13fillSuperview7paddingySo12UIEdgeInsetsV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE13fillSuperview7paddingySo12UIEdgeInsetsV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "centerInSuperview",
+          "printedName": "centerInSuperview(size:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "hasDefaultArg": true,
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE17centerInSuperview4sizeySo6CGSizeV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE17centerInSuperview4sizeySo6CGSizeV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "centerXInSuperview",
+          "printedName": "centerXInSuperview()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE18centerXInSuperviewyyF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE18centerXInSuperviewyyF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "centerYInSuperview",
+          "printedName": "centerYInSuperview()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE18centerYInSuperviewyyF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE18centerYInSuperviewyyF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "constraintWidth",
+          "printedName": "constraintWidth(constant:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE15constraintWidth8constanty12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE15constraintWidth8constanty12CoreGraphics7CGFloatV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "constraintHeight",
+          "printedName": "constraintHeight(constant:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE16constraintHeight8constanty12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE16constraintHeight8constanty12CoreGraphics7CGFloatV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "constraintWidthAspectRatio",
+          "printedName": "constraintWidthAspectRatio(constant:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE26constraintWidthAspectRatio8constanty12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE26constraintWidthAspectRatio8constanty12CoreGraphics7CGFloatV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "constraintHeightAspectRatio",
+          "printedName": "constraintHeightAspectRatio(constant:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC15RecentlyVisitedE27constraintHeightAspectRatio8constanty12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$sSo6UIViewC15RecentlyVisitedE27constraintHeightAspectRatio8constanty12CoreGraphics7CGFloatV_tF",
+          "moduleName": "RecentlyVisited",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIView",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIView",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

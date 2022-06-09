@@ -1,0 +1,291 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UpcomingMoviesDomain",
+      "printedName": "UpcomingMoviesDomain",
+      "declKind": "Import",
+      "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UpcomingMoviesDomainTests",
+      "printedName": "UpcomingMoviesDomainTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setUp",
+          "printedName": "setUp()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)setUp",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C5setUpyyF",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUp",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDown",
+          "printedName": "tearDown()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)tearDown",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C8tearDownyyF",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDown",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testExample",
+          "printedName": "testExample()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)testExample",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C11testExampleyyF",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testPerformanceExample",
+          "printedName": "testPerformanceExample()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)testPerformanceExample",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C22testPerformanceExampleyyF",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UpcomingMoviesDomainTests",
+              "printedName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests.UpcomingMoviesDomainTests",
+              "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)initWithInvocation:",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UpcomingMoviesDomainTests",
+              "printedName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests.UpcomingMoviesDomainTests",
+              "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)initWithSelector:",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UpcomingMoviesDomainTests",
+              "printedName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests.UpcomingMoviesDomainTests",
+              "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests(im)init",
+          "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0CACycfc",
+          "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests@objc(cs)UpcomingMoviesDomainTests",
+      "mangledName": "$s026UpcomingMoviesDomain_Unit_abC5Tests0abcE0C",
+      "moduleName": "UpcomingMoviesDomain_Unit_UpcomingMoviesDomainTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

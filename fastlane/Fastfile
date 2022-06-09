@@ -1,26 +1,214 @@
-default_platform(:ios)
+fastlane_require 'xcodeproj'
+fastlane_version "2.64.0"
 
-ENV["FASTLANE_XCODEBUILD_SETTINGS_RETRIES"] = "4"
+########################################################
+# Constants
+########################################################
 
+team_id_develop = "L6EJCP84YQ"
+app_id_develop = "com.soulz.MovieAppz"
+app_scheme_debug = "Debug"
+########################################################
+# iOS
+########################################################
+
+default_platform :ios
 platform :ios do
 
-  	lane :tests do
-  	run_tests(
-  	  workspace: "UpcomingMovies.xcworkspace",
-     	  devices: ["iPhone 8"],
-      	  scheme: "UpcomingMovies",
-	  code_coverage: true
-    	)
-	end
+  ########################################################
+  # Match lanes - Retrieval - Development
+  ########################################################
 
-	lane :lint do
-	swiftlint(
-	  mode: :lint,
-	  executable: './Pods/SwiftLint/swiftlint',
-	  output_file: "swiftlint.result.json",
-	  config_file: ".swiftlint.yml",
-	  raise_if_swiftlint_error: true
+  desc "Retrieve develop certificates and signing identity using Match"
+  lane :match_retrieve_develop do
+    keychain_name = "develop"
+    branch = "develop"
+
+    retrieve_certificate_and_profiles(keychain_name, app_id_develop, team_id_develop, branch)
+  end
+
+  desc "Retrieve and update (where needed) all provisioning profiles and signing identity for Development using Match"
+  lane :match_update_develop do
+    # => Dev
+    match(
+      app_identifier: app_id_develop,
+      team_id: team_id_develop,
+      git_branch: "develop"
+    )
+  end
+
+  # => Single certificate retrieval lanes
+  private_lane :match_retrieve_only_develop_type do
+    type = "development"
+    keychain_name = "develop"
+    branch = "develop"
+
+    retrieve_certificate_and_profiles_of_type(type, keychain_name, app_id_develop, team_id_develop, branch)
+  end
+
+  ########################################################
+  # Match lanes - Retrieval - Utility
+  ########################################################
+
+  desc "Retrieves the certificate and profiles out of a certain branch using the app id and team id and installs it into the keychain (if the operation is CI)"
+  def retrieve_certificate_and_profiles(name_of_keychain, app_id, team_id, branch)
+    keychain_name = "#{ENV["MATCH_KEYCHAIN_NAME"]}_#{name_of_keychain}"
+
+    if is_ci
+      create_keychain(
+        name: keychain_name,
+        password: ENV["MATCH_PASSWORD"],
+        default_keychain: true,
+        unlock: true,
+        timeout: 3600,
+        add_to_search_list: true
+      )
+      match(
+        keychain_name: keychain_name,
+        keychain_password: ENV["MATCH_PASSWORD"],
+        readonly: true,
+        app_identifier: app_id,
+        team_id: team_id,
+        git_branch: branch
+      )
+    else
+      match(
+        readonly: true,
+        app_identifier: app_id,
+        team_id: team_id,
+        git_branch: branch
+      )
+    end
+  end
+
+  desc "Retrieves the certificate and profiles of a certain type out of a certain branch using the app id and team id and installs it into the keychain (if the operation is CI)"
+  desc "Type can be any of following: appstore, adhoc, development, enterprise"
+  def retrieve_certificate_and_profiles_of_type(certificate_type, name_of_keychain, app_id, team_id, branch)
+    keychain_name = "#{ENV["MATCH_KEYCHAIN_NAME"]}_#{name_of_keychain}"
+
+    if is_ci
+      create_keychain(
+        name: keychain_name,
+        password: ENV["MATCH_PASSWORD"],
+        default_keychain: true,
+        unlock: true,
+        timeout: 3600,
+        add_to_search_list: true
+      )
+      match(
+        keychain_name: keychain_name,
+        keychain_password: ENV["MATCH_PASSWORD"],
+        readonly: true,
+        type: certificate_type,
+        app_identifier: app_id,
+        team_id: team_id,
+        git_branch: branch
+      )
+    else
+      match(
+        readonly: true,
+        type: certificate_type,
+        app_identifier: app_id,
+        team_id: team_id,
+        git_branch: branch
+      )
+    end
+  end
+
+  ########################################################
+  # Test
+  ########################################################
+
+  desc "Runs all the Unit tests"
+  lane :test_unit do |options|
+    begin
+	scan(
+		scheme: "UpcomingMovies",
+		derived_data_path: "./DerivedData", 
+		output_directory: "./reports",
+		code_coverage: true
 	)
-	end
 
+	submit_sonnar = options[:submit_sonnar]
+     	if submit_sonnar
+      		# Uncomment to try to fix the issue with conekta library (Objective c and swift).
+      		#sh("xcparse codecov ../DerivedData/Logs/Test/*.xcresult ../DerivedData/Logs/Test/")
+      		#sh("bash ../xccov-to-sonarqube-generic.sh ../DerivedData/Logs/Test/*.xccovarchive/ > ../sonarqube-generic-coverage.xml")
+      	sonar
+  	end
+
+    rescue => e
+      raise e
+    end
+  end
+
+  ########################################################
+  # Develop build lanes
+  ########################################################
+
+  desc "Creates Develop build"
+  lane :develop do |options|
+    begin
+      release_notes = options[:release_notes] || "No release notes provided."
+      is_merge = options[:is_merge]
+
+      # => Step 1): Create develop build
+      # => Build develop
+      build_debug_develop
+
+    rescue => e
+      raise e
+    end
+  end
+
+  private_lane :build_debug_develop do
+    # => Determine scheme to be compiled.
+    scheme = app_scheme_debug
+    
+    # => Add DEV shield on top of app icon.
+    add_shield(name: "DEV", color: "blue")
+    
+    # => Increment build number for CI
+    if is_ci
+      increment_build_number(xcodeproj: ENV["XCODEPROJ"], build_number: ENV["TRAVIS_BUILD_ID"] || Time.new.strftime("%Y%m%d%H%M"))
+    end
+    
+    match_retrieve_only_develop_type
+    
+    # => Build
+    build(scheme: scheme, export_method: "development")
+  end
+
+  ########################################################
+  # Build
+  ########################################################
+
+  desc "Build the project"
+  private_lane :build do |options|
+    export_method = options[:export_method] || "development"
+    scheme = options[:scheme] || "Debug"
+
+    gym(
+      scheme: options[:scheme],
+      include_bitcode: true,
+      include_symbols: true,
+      export_method: export_method,
+      silent: true
+    )
+
+  end
+
+########################################################
+  # Utility
+  ########################################################
+
+  def upload_to_appcenter(release_notes, appName)
+    appcenter_upload(
+      api_token: ENV["HOCKEY_APP_TOKEN"],
+      owner_name: "LuisZ",
+      app_name: appName,
+      ipa: ENV["IPA_OUTPUT_PATH"],
+      release_notes: release_notes
+   )
+  end
 end

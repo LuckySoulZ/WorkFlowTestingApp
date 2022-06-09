@@ -1,0 +1,4 @@
+workspace "MovieAppz.workspace"
+
+output_directory "./build"
+output_name "MovieAppz"

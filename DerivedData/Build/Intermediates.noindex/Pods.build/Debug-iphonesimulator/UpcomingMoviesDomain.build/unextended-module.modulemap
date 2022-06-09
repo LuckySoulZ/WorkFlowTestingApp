@@ -1,0 +1,10 @@
+framework module UpcomingMoviesDomain {
+  umbrella header "UpcomingMoviesDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module UpcomingMoviesDomain.__Swift {
+    exclude header "UpcomingMoviesDomain-Swift.h"
+}

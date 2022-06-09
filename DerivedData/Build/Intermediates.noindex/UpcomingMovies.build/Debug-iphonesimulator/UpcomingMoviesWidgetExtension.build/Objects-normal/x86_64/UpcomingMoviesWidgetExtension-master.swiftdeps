@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "0ab628f3d7361dabb3906a31989daa44243b059093d3195885f57ff592836866"
+build_start_time: [1654798224, 977102041]
+build_end_time: [1654798228, 19168853]
+inputs:
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Utils/AppExtension.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Utils/AppGroup.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesWidgetExtension/MoviesWidgets.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesWidgetExtension/WidgetProvider.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesWidgetExtension/Widgets/SearchMovies/SearchMoviesWidget.swift": [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesWidgetExtension/Widgets/UpcomingMovies/UpcomingMoviesWidget.swift"
+  : [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesWidgetExtension/Widgets/ViewComponents/SmallWidgetView.swift": [1654745013, 0]

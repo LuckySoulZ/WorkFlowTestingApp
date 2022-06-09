@@ -1,0 +1,11 @@
+framework module UpcomingMoviesData {
+  umbrella header "UpcomingMoviesData-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module UpcomingMoviesData.Swift {
+    header "UpcomingMoviesData-Swift.h"
+    requires objc
+}

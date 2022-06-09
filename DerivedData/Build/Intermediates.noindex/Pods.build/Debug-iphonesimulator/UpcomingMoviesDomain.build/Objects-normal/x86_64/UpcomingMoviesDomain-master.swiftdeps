@@ -1,0 +1,40 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "8d68e2a0769fcf138dd309d2de2eddd36a8d0b1025a9f75373e8093183a97583"
+build_start_time: [1654798259, 502667903]
+build_end_time: [1654798259, 554214954]
+inputs:
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Cast.swift": [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Configuration/Configuration.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Configuration/ImagesConfiguration.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Configuration/SortConfiguration.swift"
+  : [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Crew.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Genre.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/List.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Movie.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/MovieCredits.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/MovieSearch.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/MovieVisit.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Review.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/User.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/Entities/Video.swift": [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/AccountUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/AuthUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/ConfigurationUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/GenreUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/MovieSearchUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/MovieUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/MovieVisitUseCaseProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/UseCaseProviderProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomain/UseCases/UserUseCaseProtocol.swift"
+  : [1654745013, 0]

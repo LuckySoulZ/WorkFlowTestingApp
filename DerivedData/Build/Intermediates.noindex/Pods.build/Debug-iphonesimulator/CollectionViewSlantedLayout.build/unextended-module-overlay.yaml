@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/Products/Debug-iphonesimulator/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CollectionViewSlantedLayout.build/unextended-module.modulemap",
+    }]
+  }]
+}

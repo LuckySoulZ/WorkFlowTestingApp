@@ -1,0 +1,39 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "6dccba7c18d0508b2ce69d67bfd223ca9aca562426608527be03abd3e8d364ea"
+build_start_time: [1654798219, 163687944]
+build_end_time: [1654798219, 681625843]
+inputs:
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Account/AccountRemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Auth/AuthRemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Configuration/ConfigurationRemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Genre/GenreLocalDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Genre/GenreRemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/LocalDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/Movie/MovieRemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/MovieSearch/MovieSearchLocalDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/MovieVisit/MovieVisitLocalDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/RemoteDataSourceProtocol.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/DataSources/User/UserLocalDataSourceProtocol.swift"
+  : [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/AccountRepository.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/AuthRepository.swift": [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/ConfigurationRepository.swift"
+  : [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/GenreRepository.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/MovieRepository.swift": [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/MovieSearchRepository.swift"
+  : [1654745013, 0]
+  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/MovieVisitRepository.swift"
+  : [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/Repositories/UserRepository.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesData/UseCaseProvider.swift": [1654745013, 0]

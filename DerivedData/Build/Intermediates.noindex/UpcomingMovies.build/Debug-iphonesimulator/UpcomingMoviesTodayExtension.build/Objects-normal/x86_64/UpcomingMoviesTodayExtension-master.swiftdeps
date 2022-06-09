@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "0ab628f3d7361dabb3906a31989daa44243b059093d3195885f57ff592836866"
+build_start_time: [1654798225, 99852085]
+build_end_time: [1654798229, 832126140]
+inputs:
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Extensions/UIImageView+Kingfisher.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Extensions/UIView+Layout.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Utils/AppExtension.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies/Helpers/Utils/AppGroup.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesTodayExtension/TodayView.swift": [1654745013, 0]
+  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesTodayExtension/TodayViewController.swift": [1654745013, 0]

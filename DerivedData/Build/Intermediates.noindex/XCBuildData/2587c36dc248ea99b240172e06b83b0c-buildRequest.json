@@ -1,0 +1,85 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "b2d30834808b57bd3dc460137d59d22c62185583d2eeef1cff1657ac60e5db48"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4241f5063e85395a1b2312bd93bc96e858"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b57e2552d94309da036f856b50b1703c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4278aac5a1749e2748b6e6a49dea676f5e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4218af501490a83cfabeb220e3ee4c7b81"
+    },
+    {
+      "guid" : "b2d30834808b57bd3dc460137d59d22c112025e540214e80697101dc74ccbb56"
+    }
+  ],
+  "containerPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMovies.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone10,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/DerivedData/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "AF3DC938-3175-4482-AE84-D25E119D3DF7",
+          "TARGET_DEVICE_MODEL" : "iPhone10,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "test",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

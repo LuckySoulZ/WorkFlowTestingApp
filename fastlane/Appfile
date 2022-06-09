@@ -1,6 +1,7 @@
-# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
-# apple_id("[[APPLE_ID]]") # Your Apple email address
+apple_id "luiszatarain24@outlook.com" # Your Apple email address
+team_id "L6EJCP84YQ" # Developer Portal Team ID
+app_identifier "com.soulz.MovieAppz"
 
-
-# For more information about the Appfile, see:
-#     https://docs.fastlane.tools/advanced/#appfile
+for_lane :develop do
+    app_identifier "com.soulz.MovieAppz"
+end

@@ -1,0 +1,3527 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "QuartzCore",
+      "printedName": "QuartzCore",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionViewDelegateSlantedLayout",
+      "printedName": "CollectionViewDelegateSlantedLayout",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "collectionView",
+          "printedName": "collectionView(_:layout:sizeForItemAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UICollectionView",
+              "printedName": "UIKit.UICollectionView",
+              "usr": "c:objc(cs)UICollectionView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedLayout",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayout",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(pl)CollectionViewDelegateSlantedLayout(im)collectionView:layout:sizeForItemAt:",
+          "mangledName": "$s27CollectionViewSlantedLayout0ab8DelegatecD0P010collectionB0_6layout13sizeForItemAt12CoreGraphics7CGFloatVSo012UICollectionB0C_A2AC10Foundation9IndexPathVtF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "genericSig": "<τ_0_0 where τ_0_0 : CollectionViewSlantedLayout.CollectionViewDelegateSlantedLayout>",
+          "sugared_genericSig": "<Self where Self : CollectionViewSlantedLayout.CollectionViewDelegateSlantedLayout>",
+          "protocolReq": true,
+          "declAttributes": [
+            "Optional",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "c:@M@CollectionViewSlantedLayout@objc(pl)CollectionViewDelegateSlantedLayout",
+      "mangledName": "$s27CollectionViewSlantedLayout0ab8DelegatecD0P",
+      "moduleName": "CollectionViewSlantedLayout",
+      "genericSig": "<τ_0_0 : UIKit.UICollectionViewDelegate>",
+      "sugared_genericSig": "<Self : UIKit.UICollectionViewDelegate>",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionViewSlantedCell",
+      "printedName": "CollectionViewSlantedCell",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "point",
+          "printedName": "point(inside:with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIEvent?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIEvent",
+                  "printedName": "UIKit.UIEvent",
+                  "usr": "c:objc(cs)UIEvent"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell(im)pointInside:withEvent:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC4CellC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "pointInside:withEvent:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "apply",
+          "printedName": "apply(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UICollectionViewLayoutAttributes",
+              "printedName": "UIKit.UICollectionViewLayoutAttributes",
+              "usr": "c:objc(cs)UICollectionViewLayoutAttributes"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell(im)applyLayoutAttributes:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC4CellC5applyyySo012UICollectionbD10AttributesCF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "applyLayoutAttributes:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedCell",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedCell",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell(im)initWithFrame:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC4CellC5frameACSo6CGRectV_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionViewSlantedCell",
+                  "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedCell",
+                  "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell(im)initWithCoder:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC4CellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedCell",
+      "mangledName": "$s27CollectionViewSlantedLayout0abC4CellC",
+      "moduleName": "CollectionViewSlantedLayout",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "superclassUsr": "c:objc(cs)UICollectionViewCell",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UICollectionViewCell",
+        "UIKit.UICollectionReusableView",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionViewSlantedLayout",
+      "printedName": "CollectionViewSlantedLayout",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "slantingSize",
+          "printedName": "slantingSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UInt",
+              "printedName": "Swift.UInt",
+              "usr": "s:Su"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)slantingSize",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC12slantingSizeSuvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "IBInspectable",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)slantingSize",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC12slantingSizeSuvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setSlantingSize:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC12slantingSizeSuvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC12slantingSizeSuvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC12slantingSizeSuvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "slantingDirection",
+          "printedName": "slantingDirection",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SlantingDirection",
+              "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+              "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)slantingDirection",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC17slantingDirectionAA08SlantingF0Ovp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SlantingDirection",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)slantingDirection",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17slantingDirectionAA08SlantingF0Ovg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SlantingDirection",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setSlantingDirection:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17slantingDirectionAA08SlantingF0Ovs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC17slantingDirectionAA08SlantingF0OvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17slantingDirectionAA08SlantingF0OvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "slantingAngle",
+          "printedName": "slantingAngle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)slantingAngle",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC13slantingAngle12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "SetterAccess",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)slantingAngle",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC13slantingAngle12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "scrollDirection",
+          "printedName": "scrollDirection",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ScrollDirection",
+              "printedName": "UIKit.UICollectionView.ScrollDirection",
+              "usr": "c:@E@UICollectionViewScrollDirection"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)scrollDirection",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC15scrollDirectionSo012UICollectionb6ScrollF0Vvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ScrollDirection",
+                  "printedName": "UIKit.UICollectionView.ScrollDirection",
+                  "usr": "c:@E@UICollectionViewScrollDirection"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)scrollDirection",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC15scrollDirectionSo012UICollectionb6ScrollF0Vvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ScrollDirection",
+                  "printedName": "UIKit.UICollectionView.ScrollDirection",
+                  "usr": "c:@E@UICollectionViewScrollDirection"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setScrollDirection:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC15scrollDirectionSo012UICollectionb6ScrollF0Vvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC15scrollDirectionSo012UICollectionb6ScrollF0VvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC15scrollDirectionSo012UICollectionb6ScrollF0VvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isFirstCellExcluded",
+          "printedName": "isFirstCellExcluded",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)isFirstCellExcluded",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC19isFirstCellExcludedSbvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "IBInspectable",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)isFirstCellExcluded",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC19isFirstCellExcludedSbvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setIsFirstCellExcluded:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC19isFirstCellExcludedSbvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC19isFirstCellExcludedSbvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC19isFirstCellExcludedSbvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isLastCellExcluded",
+          "printedName": "isLastCellExcluded",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)isLastCellExcluded",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC18isLastCellExcludedSbvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "IBInspectable",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)isLastCellExcluded",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC18isLastCellExcludedSbvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setIsLastCellExcluded:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC18isLastCellExcludedSbvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC18isLastCellExcludedSbvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC18isLastCellExcludedSbvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lineSpacing",
+          "printedName": "lineSpacing",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)lineSpacing",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC11lineSpacing12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "IBInspectable",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)lineSpacing",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11lineSpacing12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setLineSpacing:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11lineSpacing12CoreGraphics7CGFloatVvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC11lineSpacing12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11lineSpacing12CoreGraphics7CGFloatVvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "itemSize",
+          "printedName": "itemSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)itemSize",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC8itemSize12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "IBInspectable",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)itemSize",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC8itemSize12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setItemSize:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC8itemSize12CoreGraphics7CGFloatVvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC8itemSize12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC8itemSize12CoreGraphics7CGFloatVvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "zIndexOrder",
+          "printedName": "zIndexOrder",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ZIndexOrder",
+              "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+              "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)zIndexOrder",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC11zIndexOrderAA06ZIndexF0Ovp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "AccessControl",
+            "ObjC",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ZIndexOrder",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)zIndexOrder",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11zIndexOrderAA06ZIndexF0Ovg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ZIndexOrder",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)setZIndexOrder:",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11zIndexOrderAA06ZIndexF0Ovs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC11zIndexOrderAA06ZIndexF0OvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11zIndexOrderAA06ZIndexF0OvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cachedAttributes",
+          "printedName": "cachedAttributes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionViewSlantedLayoutAttributes",
+                  "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes",
+                  "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvp",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CollectionViewSlantedLayoutAttributes",
+                      "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes",
+                      "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvg",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CollectionViewSlantedLayoutAttributes",
+                      "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes",
+                      "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvs",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC16cachedAttributesSayAA0abcdF0CGvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cachedContentSize",
+          "printedName": "cachedContentSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 10,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC17cachedContentSize12CoreGraphics7CGFloatVvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currentSize",
+          "printedName": "currentSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvp",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 11,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvg",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvs",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvM",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC11currentSizeSo6CGSizeVvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedLayout",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayout",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)init",
+          "mangledName": "$s27CollectionViewSlantedLayoutAACABycfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayout?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionViewSlantedLayout",
+                  "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayout",
+                  "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)initWithCoder:",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC5coderABSgSo7NSCoderC_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "collectionViewContentSize",
+          "printedName": "collectionViewContentSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(py)collectionViewContentSize",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC010collectionB11ContentSizeSo6CGSizeVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "collectionViewContentSize",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGSize",
+                  "printedName": "CoreGraphics.CGSize",
+                  "usr": "c:@S@CGSize"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)collectionViewContentSize",
+              "mangledName": "$s27CollectionViewSlantedLayoutAAC010collectionB11ContentSizeSo6CGSizeVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "collectionViewContentSize",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "shouldInvalidateLayout",
+          "printedName": "shouldInvalidateLayout(forBoundsChange:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)shouldInvalidateLayoutForBoundsChange:",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC016shouldInvalidateD015forBoundsChangeSbSo6CGRectV_tF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "shouldInvalidateLayoutForBoundsChange:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "prepare",
+          "printedName": "prepare()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)prepareLayout",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC7prepareyyF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "prepareLayout",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "layoutAttributesForElements",
+          "printedName": "layoutAttributesForElements(in:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UICollectionViewLayoutAttributes]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UICollectionViewLayoutAttributes]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UICollectionViewLayoutAttributes",
+                      "printedName": "UIKit.UICollectionViewLayoutAttributes",
+                      "usr": "c:objc(cs)UICollectionViewLayoutAttributes"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)layoutAttributesForElementsInRect:",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC27layoutAttributesForElements2inSaySo012UICollectionbdF0CGSgSo6CGRectV_tF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "layoutAttributesForElementsInRect:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "layoutAttributesForItem",
+          "printedName": "layoutAttributesForItem(at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionViewSlantedLayoutAttributes",
+                  "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes",
+                  "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout(im)layoutAttributesForItemAtIndexPath:",
+          "mangledName": "$s27CollectionViewSlantedLayoutAAC23layoutAttributesForItem2atAA0abcdF0CSg10Foundation9IndexPathV_tF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "layoutAttributesForItemAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayout",
+      "mangledName": "$s27CollectionViewSlantedLayoutAAC",
+      "moduleName": "CollectionViewSlantedLayout",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "superclassUsr": "c:objc(cs)UICollectionViewLayout",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UICollectionViewLayout",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SlantingDirection",
+      "printedName": "SlantingDirection",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "downward",
+          "printedName": "downward",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(CollectionViewSlantedLayout.SlantingDirection.Type) -> CollectionViewSlantedLayout.SlantingDirection",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SlantingDirection",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SlantingDirection",
+                      "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                      "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection@SlantingDirectionDownward",
+          "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO8downwardyA2CmF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "upward",
+          "printedName": "upward",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(CollectionViewSlantedLayout.SlantingDirection.Type) -> CollectionViewSlantedLayout.SlantingDirection",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SlantingDirection",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SlantingDirection",
+                      "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                      "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection@SlantingDirectionUpward",
+          "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO6upwardyA2CmF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CollectionViewSlantedLayout.SlantingDirection?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SlantingDirection",
+                  "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:27CollectionViewSlantedLayout17SlantingDirectionO8rawValueACSgSi_tcfc",
+          "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO8rawValueACSgSi_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout17SlantingDirectionO8rawValueSivp",
+          "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO8rawValueSivp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout17SlantingDirectionO8rawValueSivg",
+              "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO8rawValueSivg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection",
+      "mangledName": "$s27CollectionViewSlantedLayout17SlantingDirectionO",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "Int",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ZIndexOrder",
+      "printedName": "ZIndexOrder",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "ascending",
+          "printedName": "ascending",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(CollectionViewSlantedLayout.ZIndexOrder.Type) -> CollectionViewSlantedLayout.ZIndexOrder",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ZIndexOrder",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ZIndexOrder",
+                      "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                      "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder@ZIndexOrderAscending",
+          "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO9ascendingyA2CmF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "descending",
+          "printedName": "descending",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(CollectionViewSlantedLayout.ZIndexOrder.Type) -> CollectionViewSlantedLayout.ZIndexOrder",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ZIndexOrder",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ZIndexOrder",
+                      "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                      "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder@ZIndexOrderDescending",
+          "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO10descendingyA2CmF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "isAscending",
+          "printedName": "isAscending",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout11ZIndexOrderO11isAscendingSbvp",
+          "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO11isAscendingSbvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout11ZIndexOrderO11isAscendingSbvg",
+              "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO11isAscendingSbvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CollectionViewSlantedLayout.ZIndexOrder?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ZIndexOrder",
+                  "printedName": "CollectionViewSlantedLayout.ZIndexOrder",
+                  "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:27CollectionViewSlantedLayout11ZIndexOrderO8rawValueACSgSi_tcfc",
+          "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO8rawValueACSgSi_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "implicit": true,
+          "declAttributes": [
+            "Inlinable"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout11ZIndexOrderO8rawValueSivp",
+          "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO8rawValueSivp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout11ZIndexOrderO8rawValueSivg",
+              "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO8rawValueSivg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "c:@M@CollectionViewSlantedLayout@E@ZIndexOrder",
+      "mangledName": "$s27CollectionViewSlantedLayout11ZIndexOrderO",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC",
+        "RawDocComment"
+      ],
+      "enumRawTypeName": "Int",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionViewSlantedLayoutAttributes",
+      "printedName": "CollectionViewSlantedLayoutAttributes",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "slantedLayerMask",
+          "printedName": "slantedLayerMask",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "QuartzCore.CAShapeLayer?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvp",
+          "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "QuartzCore.CAShapeLayer?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CAShapeLayer",
+                      "printedName": "QuartzCore.CAShapeLayer",
+                      "usr": "c:objc(cs)CAShapeLayer"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvg",
+              "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "QuartzCore.CAShapeLayer?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CAShapeLayer",
+                      "printedName": "QuartzCore.CAShapeLayer",
+                      "usr": "c:objc(cs)CAShapeLayer"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvs",
+              "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvM",
+              "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC16slantedLayerMaskSo07CAShapeG0CSgvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "copy",
+          "printedName": "copy(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ObjectiveC.NSZone?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSZone",
+                  "printedName": "ObjectiveC.NSZone",
+                  "usr": "s:10ObjectiveC6NSZoneV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes(im)copyWithZone:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "copyWithZone:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isEqual",
+          "printedName": "isEqual(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes(im)isEqual:",
+          "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC7isEqualySbypSgF",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "isEqual:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "AccessControl",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedLayoutAttributes",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedLayoutAttributes",
+              "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes(im)init",
+          "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesCACycfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@CollectionViewSlantedLayout@objc(cs)CollectionViewSlantedLayoutAttributes",
+      "mangledName": "$s27CollectionViewSlantedLayout0abcD10AttributesC",
+      "moduleName": "CollectionViewSlantedLayout",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "RawDocComment",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UICollectionViewLayoutAttributes",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UICollectionViewLayoutAttributes",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionViewSlantedMasks",
+      "printedName": "CollectionViewSlantedMasks",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "startingMask",
+          "printedName": "startingMask",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAShapeLayer",
+              "printedName": "QuartzCore.CAShapeLayer",
+              "usr": "c:objc(cs)CAShapeLayer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvp",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvg",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvs",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvM",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV12startingMaskSo12CAShapeLayerCvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "defaultMask",
+          "printedName": "defaultMask",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAShapeLayer",
+              "printedName": "QuartzCore.CAShapeLayer",
+              "usr": "c:objc(cs)CAShapeLayer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvp",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvg",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvs",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvM",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV11defaultMaskSo12CAShapeLayerCvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "endingMask",
+          "printedName": "endingMask",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAShapeLayer",
+              "printedName": "QuartzCore.CAShapeLayer",
+              "usr": "c:objc(cs)CAShapeLayer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvp",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvg",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAShapeLayer",
+                  "printedName": "QuartzCore.CAShapeLayer",
+                  "usr": "c:objc(cs)CAShapeLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvs",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvs",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvM",
+              "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV10endingMaskSo12CAShapeLayerCvM",
+              "moduleName": "CollectionViewSlantedLayout",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(masks:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedMasks",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedMasks",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedMasks",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedMasks",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:27CollectionViewSlantedLayout0abC5MasksV5masksA2C_tcfc",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV5masksA2C_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(size:slantingSize:scrollDirection:slantingDirection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionViewSlantedMasks",
+              "printedName": "CollectionViewSlantedLayout.CollectionViewSlantedMasks",
+              "usr": "s:27CollectionViewSlantedLayout0abC5MasksV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGSize",
+              "printedName": "CoreGraphics.CGSize",
+              "usr": "c:@S@CGSize"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ScrollDirection",
+              "printedName": "UIKit.UICollectionView.ScrollDirection",
+              "usr": "c:@E@UICollectionViewScrollDirection"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SlantingDirection",
+              "printedName": "CollectionViewSlantedLayout.SlantingDirection",
+              "usr": "c:@M@CollectionViewSlantedLayout@E@SlantingDirection"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:27CollectionViewSlantedLayout0abC5MasksV4size12slantingSize15scrollDirection0gJ0ACSo6CGSizeV_12CoreGraphics7CGFloatVSo012UICollectionb6ScrollJ0VAA08SlantingJ0Otcfc",
+          "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV4size12slantingSize15scrollDirection0gJ0ACSo6CGSizeV_12CoreGraphics7CGFloatVSo012UICollectionb6ScrollJ0VAA08SlantingJ0Otcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:27CollectionViewSlantedLayout0abC5MasksV",
+      "mangledName": "$s27CollectionViewSlantedLayout0abC5MasksV",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "CollectionViewSlantedLayout",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CAShapeLayer",
+      "printedName": "CAShapeLayer",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(path:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAShapeLayer",
+              "printedName": "QuartzCore.CAShapeLayer",
+              "usr": "c:objc(cs)CAShapeLayer"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreGraphics.CGPath?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGPath",
+                  "printedName": "CoreGraphics.CGPath",
+                  "usr": "c:@T@CGPathRef"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:So12CAShapeLayerC27CollectionViewSlantedLayoutE4pathABSo9CGPathRefaSg_tcfc",
+          "mangledName": "$sSo12CAShapeLayerC27CollectionViewSlantedLayoutE4pathABSo9CGPathRefaSg_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "Convenience",
+            "RawDocComment"
+          ],
+          "init_kind": "Convenience"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(pathPoints:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAShapeLayer",
+              "printedName": "QuartzCore.CAShapeLayer",
+              "usr": "c:objc(cs)CAShapeLayer"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[CoreGraphics.CGPoint]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGPoint",
+                  "printedName": "CoreGraphics.CGPoint",
+                  "usr": "c:@S@CGPoint"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:So12CAShapeLayerC27CollectionViewSlantedLayoutE10pathPointsABSaySo7CGPointVG_tcfc",
+          "mangledName": "$sSo12CAShapeLayerC27CollectionViewSlantedLayoutE10pathPointsABSaySo7CGPointVG_tcfc",
+          "moduleName": "CollectionViewSlantedLayout",
+          "declAttributes": [
+            "Convenience",
+            "RawDocComment"
+          ],
+          "init_kind": "Convenience"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)CAShapeLayer",
+      "moduleName": "QuartzCore",
+      "isOpen": true,
+      "intro_iOS": "3.0",
+      "objc_name": "CAShapeLayer",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)CALayer",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "QuartzCore.CALayer",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ScrollDirection",
+      "printedName": "ScrollDirection",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "isVertical",
+          "printedName": "isVertical",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So31UICollectionViewScrollDirectionV010CollectionB13SlantedLayoutE10isVerticalSbvp",
+          "mangledName": "$sSo31UICollectionViewScrollDirectionV010CollectionB13SlantedLayoutE10isVerticalSbvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So31UICollectionViewScrollDirectionV010CollectionB13SlantedLayoutE10isVerticalSbvg",
+              "mangledName": "$sSo31UICollectionViewScrollDirectionV010CollectionB13SlantedLayoutE10isVerticalSbvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "c:@E@UICollectionViewScrollDirection",
+      "moduleName": "UIKit",
+      "objc_name": "UICollectionViewScrollDirection",
+      "declAttributes": [
+        "SynthesizedProtocol",
+        "ObjC",
+        "SynthesizedProtocol",
+        "Sendable",
+        "Dynamic"
+      ],
+      "enumRawTypeName": "Int",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UICollectionViewLayout",
+      "printedName": "UICollectionViewLayout",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "numberOfItems",
+          "printedName": "numberOfItems",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E13numberOfItemsSivp",
+          "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E13numberOfItemsSivp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E13numberOfItemsSivg",
+              "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E13numberOfItemsSivg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "width",
+          "printedName": "width",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E5width12CoreGraphics7CGFloatVvp",
+          "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E5width12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E5width12CoreGraphics7CGFloatVvg",
+              "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E5width12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "height",
+          "printedName": "height",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E6height12CoreGraphics7CGFloatVvp",
+          "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E6height12CoreGraphics7CGFloatVvp",
+          "moduleName": "CollectionViewSlantedLayout",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So22UICollectionViewLayoutC010Collectionb7SlantedC0E6height12CoreGraphics7CGFloatVvg",
+              "mangledName": "$sSo22UICollectionViewLayoutC010Collectionb7SlantedC0E6height12CoreGraphics7CGFloatVvg",
+              "moduleName": "CollectionViewSlantedLayout",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UICollectionViewLayout",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "6.0",
+      "objc_name": "UICollectionViewLayout",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
