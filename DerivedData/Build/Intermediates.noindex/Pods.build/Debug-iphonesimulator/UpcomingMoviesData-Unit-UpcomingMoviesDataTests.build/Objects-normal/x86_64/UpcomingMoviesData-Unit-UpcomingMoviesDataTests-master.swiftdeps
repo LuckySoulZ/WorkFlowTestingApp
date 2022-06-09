@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "5cd118b8dc975297f40550dd70b73696b99c453b21b93fa40806f912a9a283de"
-build_start_time: [1654798259, 811231136]
-build_end_time: [1654798262, 250684022]
-inputs:
-  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesDataTests/UserLocalDataSourceProtocolMock.swift"
-  : [1654745013, 0]
-  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesData/UpcomingMoviesDataTests/UserRepositoryTests.swift": [1654745013, 0]

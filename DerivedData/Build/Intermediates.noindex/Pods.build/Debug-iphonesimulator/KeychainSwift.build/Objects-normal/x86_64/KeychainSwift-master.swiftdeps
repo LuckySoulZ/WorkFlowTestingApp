@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "8d68e2a0769fcf138dd309d2de2eddd36a8d0b1025a9f75373e8093183a97583"
-build_start_time: [1654798259, 496901988]
-build_end_time: [1654798259, 547224998]
-inputs:
-  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/Pods/KeychainSwift/Sources/KeychainSwift.swift": [1654797252, 485870122]
-  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/Pods/KeychainSwift/Sources/KeychainSwiftAccessOptions.swift": [1654797252, 486109972]
-  "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/Pods/KeychainSwift/Sources/TegKeychainConstants.swift": [1654797252, 485991001]

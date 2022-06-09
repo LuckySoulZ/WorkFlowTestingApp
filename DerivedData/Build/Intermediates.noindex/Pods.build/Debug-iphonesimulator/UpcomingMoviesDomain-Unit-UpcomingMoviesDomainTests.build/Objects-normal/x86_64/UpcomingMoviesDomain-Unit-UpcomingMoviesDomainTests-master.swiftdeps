@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "e4790553b616e25c96415f0447e99567bba0b67ce86d9ba39c349d8349f7f680"
-build_start_time: [1654798259, 663022041]
-build_end_time: [1654798262, 194293022]
-inputs:
-  ? "/Users/luckysoul/Documents/GitHub/WorkFlowTestingApp/UpcomingMoviesDomain/UpcomingMoviesDomainTests/UpcomingMoviesDomainTests.swift"
-  : [1654745013, 0]

@@ -126,7 +126,8 @@ platform :ios do
 		scheme: "UpcomingMovies",
 		derived_data_path: "./DerivedData", 
 		output_directory: "./reports",
-		code_coverage: true
+		code_coverage: true,
+		fail_build: false
 	)
 
 	submit_sonnar = options[:submit_sonnar]
