@@ -133,8 +133,8 @@ platform :ios do
 	submit_sonnar = options[:submit_sonnar]
      	if submit_sonnar
       		# Uncomment to try to fix the issue with conekta library (Objective c and swift).
-      		#sh("xcparse codecov ../DerivedData/Logs/Test/*.xcresult ../DerivedData/Logs/Test/")
-      		#sh("bash ../xccov-to-sonarqube-generic.sh ../DerivedData/Logs/Test/*.xccovarchive/ > ../sonarqube-generic-coverage.xml")
+      		sh("xcparse codecov ../DerivedData/Logs/Test/*.xcresult ../DerivedData/Logs/Test/")
+      		sh("bash ../xccov-to-sonarqube-generic.sh ../DerivedData/Logs/Test/*.xccovarchive/ > ../sonarqube-generic-coverage.xml")
       	sonar
   	end
 
