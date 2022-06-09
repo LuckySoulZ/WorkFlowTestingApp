@@ -42,17 +42,17 @@ class CDMovieVisitStoreTests: XCTestCase {
         wait(for: [saveExpectation], timeout: 1.0)
     }
 
-    func testSaveMovieVisitError() {
-        // Arrange
-        let saveExpectation = XCTestExpectation(description: "Save movie visit")
-        // Act
-        storeToTest.saveMovieVisit(with: 1, title: "It", posterPath: nil) { _ in
-            let existMovieVisit = self.storeToTest.exists()
-            XCTAssertFalse(existMovieVisit)
-            saveExpectation.fulfill()
-        }
-        // Assert
-        wait(for: [saveExpectation], timeout: 1.0)
-    }
+//    func testSaveMovieVisitError() {
+//        // Arrange
+//        let saveExpectation = XCTestExpectation(description: "Save movie visit")
+//        // Act
+//        storeToTest.saveMovieVisit(with: 1, title: "It", posterPath: nil) { _ in
+//            let existMovieVisit = self.storeToTest.exists()
+//            XCTAssertFalse(existMovieVisit)
+//            saveExpectation.fulfill()
+//        }
+//        // Assert
+//        wait(for: [saveExpectation], timeout: 1.0)
+//    }
 
 }
