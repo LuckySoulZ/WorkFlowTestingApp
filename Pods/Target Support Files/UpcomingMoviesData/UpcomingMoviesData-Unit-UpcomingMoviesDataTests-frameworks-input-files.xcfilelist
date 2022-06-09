@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/UpcomingMoviesData/UpcomingMoviesData-Unit-UpcomingMoviesDataTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesData/UpcomingMoviesData.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesDomain/UpcomingMoviesDomain.framework

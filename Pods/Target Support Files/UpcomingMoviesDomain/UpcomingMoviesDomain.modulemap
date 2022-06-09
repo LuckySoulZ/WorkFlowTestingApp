@@ -1,0 +1,6 @@
+framework module UpcomingMoviesDomain {
+  umbrella header "UpcomingMoviesDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreDataInfrastructure.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UpcomingMoviesDomain.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UpcomingMoviesData.framework

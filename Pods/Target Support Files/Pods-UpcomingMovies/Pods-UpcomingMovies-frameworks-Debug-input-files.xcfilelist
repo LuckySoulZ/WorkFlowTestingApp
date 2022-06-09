@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-UpcomingMovies/Pods-UpcomingMovies-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework
+${BUILT_PRODUCTS_DIR}/CoreDataInfrastructure/CoreDataInfrastructure.framework
+${BUILT_PRODUCTS_DIR}/DLProgressHUD/DLProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/NetworkInfrastructure/NetworkInfrastructure.framework
+${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesData/UpcomingMoviesData.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesDomain/UpcomingMoviesDomain.framework

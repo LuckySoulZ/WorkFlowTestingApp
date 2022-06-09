@@ -1,0 +1,40 @@
+{
+  "name": "CoreDataInfrastructure",
+  "version": "0.0.1",
+  "summary": "Core data infraestructure layer",
+  "description": "Core data infraestructure layer intended to be used by upcoming movies app data layer.",
+  "homepage": "https://github.com/DeluxeAlonso/UpcomingMovies",
+  "license": "MIT",
+  "authors": {
+    "DeluxeAlonso": "alonso.alvarez.dev@gmail.com"
+  },
+  "social_media_url": "https://github.com/DeluxeAlonso",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "http://DeluxeAlonso/CoreDataInfrastructure.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "CoreDataInfrastructure",
+    "CoreDataInfrastructure/**/*.{swift}"
+  ],
+  "public_header_files": "CoreDataInfrastructure/**/*.h",
+  "resources": "CoreDataInfrastructure/*.xcdatamodeld",
+  "dependencies": {
+    "UpcomingMoviesDomain": [
+
+    ],
+    "UpcomingMoviesData": [
+
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "CoreDataInfrastructureTests",
+      "test_type": "unit",
+      "source_files": "CoreDataInfrastructureTests/*.{swift}"
+    }
+  ]
+}

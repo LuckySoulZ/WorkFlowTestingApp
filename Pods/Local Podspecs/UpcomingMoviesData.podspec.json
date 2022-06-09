@@ -1,0 +1,36 @@
+{
+  "name": "UpcomingMoviesData",
+  "version": "0.0.1",
+  "summary": "Domain layer",
+  "description": "Data layer intended to work as a data source for upcoming movies app",
+  "homepage": "https://github.com/DeluxeAlonso/UpcomingMovies",
+  "license": "MIT",
+  "authors": {
+    "DeluxeAlonso": "alonso.alvarez.dev@gmail.com"
+  },
+  "social_media_url": "https://github.com/DeluxeAlonso",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "http://DeluxeAlonso/UpcomingMoviesData.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "UpcomingMoviesData",
+    "UpcomingMoviesData/**/*.{swift}"
+  ],
+  "public_header_files": "UpcomingMoviesData/**/*.h",
+  "dependencies": {
+    "UpcomingMoviesDomain": [
+
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "UpcomingMoviesDataTests",
+      "test_type": "unit",
+      "source_files": "UpcomingMoviesDataTests/*.{swift}"
+    }
+  ]
+}

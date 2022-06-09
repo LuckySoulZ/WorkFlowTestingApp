@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/NetworkInfrastructure/NetworkInfrastructure-Unit-NetworkInfrastructureTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NetworkInfrastructure/NetworkInfrastructure.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesDomain/UpcomingMoviesDomain.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesData/UpcomingMoviesData.framework
+${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework

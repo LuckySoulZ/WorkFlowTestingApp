@@ -1,0 +1,31 @@
+{
+  "name": "UpcomingMoviesDomain",
+  "version": "0.0.1",
+  "summary": "Domain layer",
+  "description": "Domain layer intended to be used by upcoming movies app.",
+  "homepage": "https://github.com/DeluxeAlonso/UpcomingMovies",
+  "license": "MIT",
+  "authors": {
+    "DeluxeAlonso": "alonso.alvarez.dev@gmail.com"
+  },
+  "social_media_url": "https://github.com/DeluxeAlonso",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "http://DeluxeAlonso/UpcomingMoviesDomain.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "UpcomingMoviesDomain",
+    "UpcomingMoviesDomain/**/*.{swift}"
+  ],
+  "public_header_files": "UpcomingMoviesDomain/**/*.h",
+  "testspecs": [
+    {
+      "name": "UpcomingMoviesDomainTests",
+      "test_type": "unit",
+      "source_files": "UpcomingMoviesDomainTests/*.{swift}"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkInfrastructure.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UpcomingMoviesDomain.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UpcomingMoviesData.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework

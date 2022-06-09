@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/CoreDataInfrastructure/CoreDataInfrastructure-Unit-CoreDataInfrastructureTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CoreDataInfrastructure/CoreDataInfrastructure.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesDomain/UpcomingMoviesDomain.framework
+${BUILT_PRODUCTS_DIR}/UpcomingMoviesData/UpcomingMoviesData.framework
